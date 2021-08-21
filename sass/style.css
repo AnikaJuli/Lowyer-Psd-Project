@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap");
+body {
+  font-family: 'roboto' sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+header .navbar-nav .nav-link {
+  font-size: 12px;
+  color: #1f4f87 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.heading {
+  color: #1f4f87 !important;
+  font-weight: bold;
+  padding-left: 11px;
+}
+
+.heading h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.heading span {
+  width: 60px;
+  height: 5px;
+  background-color: #f15b29;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.banner-section {
+  background-image: url(../Image/banner_blue.jpg);
+  min-height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner-section .sub-bg {
+  background-image: url(../Image/banner-orange.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.banner-section .banner-content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.banner-section .banner-content h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.banner-section .arrow {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  color: #fff;
+  font-size: 20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.who-we-are-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.who-we-are-section .introduce p {
+  color: #b0b0b1;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.what-we-do-section {
+  background-color: #f7f8f8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.what-we-do-section::before {
+  content: "";
+  position: absolute;
+  background-image: url(../Image/whatwedo_bg.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: -160px;
+  background-position: right bottom;
+  background-size: 62%;
+}
+
+.what-we-do-section .heading {
+  margin-top: 5px;
+}
+
+.what-we-do-section .heading span {
+  margin: 0 auto;
+}
+
+.what-we-do-section .what-we-do {
+  position: relative;
+  margin-top: 70px;
+}
+
+.what-we-do-section .what-we-do::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,1f4f87+53,1f4f87+100,1f4f87+100&0.7+0,0+1,0.7+52,0.7+52,0.7+53,0.7+54,0.7+100 */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 87, 153, 0.7)), color-stop(1%, rgba(30, 87, 153, 0)), color-stop(52%, rgba(31, 79, 135, 0.7)), color-stop(53%, rgba(31, 79, 135, 0.7)), color-stop(54%, rgba(31, 79, 135, 0.7)), to(rgba(31, 79, 135, 0.7)));
+  background: linear-gradient(to bottom, rgba(30, 87, 153, 0.7) 0%, rgba(30, 87, 153, 0) 1%, rgba(31, 79, 135, 0.7) 52%, rgba(31, 79, 135, 0.7) 53%, rgba(31, 79, 135, 0.7) 54%, rgba(31, 79, 135, 0.7) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31e5799', endColorstr='#b31f4f87',GradientType=0 );
+  /* IE6-9 */
+}
+
+.what-we-do-section .what-we-do h4 {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 26px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.what-we-do-section .what-we-do a {
+  position: absolute;
+  bottom: 30px;
+  color: #fff;
+  font-size: 26px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.attorneys-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(../Image/attornyes-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.attorneys-section .heading h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.attorneys-section .heading p {
+  color: #b0b0b1;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.attorneys-section .heading a {
+  text-transform: uppercase;
+  color: #f15b2a;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.attorneys-section .what-we-do {
+  position: relative;
+  margin-top: 70px;
+}
+
+.attorneys-section .what-we-do h3 {
+  position: absolute;
+  bottom: 50px;
+  color: #fff;
+  font-size: 26px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+/*# sourceMappingURL=style.css.map */
